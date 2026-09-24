@@ -48,12 +48,16 @@ def build_problem(scenario, count):
     return environment, objective, constraints, derivatives, feasibility, initial_waypoints(environment, count)
 
 
-def run_method(environment, objective, constraints, derivatives, feasibility, z0, method, learning_rate=0.01, momentum=0.9, rho=100.0, max_iter=1000, mode="balanced"):
+def run_method(environment, objective, constraints, derivatives, feasibility, z0, method, learning_rate=0.01, momentum=0.9, rho=100.0, max_iter=1000, tol=1e-5, mode="balanced", rho_schedule=None):
     alpha, beta = objective.mode_weights(mode)
     if method == "Gradient Descent":
-        optimizer = GradientDescentOptimizer(environment, objective, constraints, derivatives, learning_rate=learning_rate, rho=rho, max_iter=max_iter)
+        optimizer = GradientDescentOptimizer(environment, objective, constraints, derivatives, learning_rate=learning_rate, rho=rho, max_iter=max_iter, tol=tol)
     else:
-        optimizer = HeavyBallOptimizer(environment, objective, constraints, derivatives, learning_rate=learning_rate, momentum=momentum, rho=rho, max_iter=max_iter)
+        optimizer = HeavyBallOptimizer(environment, objective, constraints, derivatives, learning_rate=learning_rate, momentum=momentum, rho=rho, max_iter=max_iter, tol=tol)
+
+    if rho_schedule:
+        optimizer.rho_schedule = rho_schedule
+
     solution = optimizer.fit(z0, w_time=alpha, w_energy=beta)
     metrics = solution_metrics(environment, objective, constraints, feasibility, optimizer, solution)
     metrics["delivery_mode"] = mode
@@ -62,7 +66,7 @@ def run_method(environment, objective, constraints, derivatives, feasibility, z0
     return solution, optimizer, metrics
 
 
-def run_pair(scenario, count, z0=None, max_iter=1000, rho=100.0, mode="balanced"):
+def run_pair(scenario, count, z0=None, max_iter=1000, rho=100.0, mode="balanced", rho_schedule=None):
     environment, objective, constraints, derivatives, feasibility, default_z0 = build_problem(scenario, count)
     z0 = default_z0 if z0 is None else z0
     initial = {
@@ -73,7 +77,7 @@ def run_pair(scenario, count, z0=None, max_iter=1000, rho=100.0, mode="balanced"
     results = {}
     solutions = {}
     for method in ("Gradient Descent", "Heavy-Ball"):
-        solution, optimizer, metrics = run_method(environment, objective, constraints, derivatives, feasibility, z0, method, rho=rho, max_iter=max_iter, mode=mode)
+        solution, optimizer, metrics = run_method(environment, objective, constraints, derivatives, feasibility, z0, method, rho=rho, max_iter=max_iter, mode=mode, rho_schedule=rho_schedule)
         results[method] = metrics
         solutions[method] = (solution, optimizer)
     return environment, objective, constraints, derivatives, feasibility, initial, results, solutions
@@ -81,14 +85,73 @@ def run_pair(scenario, count, z0=None, max_iter=1000, rho=100.0, mode="balanced"
 
 def save_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2), encoding="utf-8")
+    # Use a custom encoder to handle numpy arrays and non-serializable objects
+    def default_encoder(obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        if hasattr(obj, "__dict__"):
+            return f"<{obj.__class__.__name__} object>"
+        return str(obj)
+
+    path.write_text(json.dumps(value, indent=2, default=default_encoder), encoding="utf-8")
+
+
+def run_full_dataset_study(dataset, waypoint_count=5, rho=100.0, rho_schedule=None):
+    """Runs optimization across the entire dataset to compute global success rates and full comparison tables."""
+    print(f"\n🚀 Running Global Dataset Study ({len(dataset)} scenarios)...")
+
+    # Store full metrics for every scenario for the final comparison table
+    all_scenario_metrics = []
+
+    global_stats = {
+        "Gradient Descent": {"feasible_count": 0, "objectives": [], "runtimes": [], "iterations": []},
+        "Heavy-Ball": {"feasible_count": 0, "objectives": [], "runtimes": [], "iterations": []}
+    }
+
+    for i, scenario in enumerate(dataset):
+        if (i + 1) % 10 == 0:
+            print(f"Processing scenario {i+1}/{len(dataset)}...")
+
+        env, obj, cons, deriv, feas, z0 = build_problem(scenario, waypoint_count)
+
+        scenario_results = {"scenario_id": scenario["id"]}
+        for method in ("Gradient Descent", "Heavy-Ball"):
+            solution, optimizer, metrics = run_method(env, obj, cons, deriv, feas, z0, method, rho=rho, rho_schedule=rho_schedule)
+
+            scenario_results[method] = metrics
+            global_stats[method]["objectives"].append(metrics["objective"])
+            global_stats[method]["runtimes"].append(metrics["runtime_s"])
+            global_stats[method]["iterations"].append(metrics["iterations"])
+            if metrics["feasible"]:
+                global_stats[method]["feasible_count"] += 1
+
+        all_scenario_metrics.append(scenario_results)
+
+    # Compute Final Summary
+    summary = {}
+    for method, data in global_stats.items():
+        summary[method] = {
+            "success_rate": (data["feasible_count"] / len(dataset)) * 100,
+            "avg_objective": float(np.mean(data["objectives"])),
+            "std_objective": float(np.std(data["objectives"])),
+            "avg_runtime": float(np.mean(data["runtimes"])),
+            "avg_iterations": float(np.mean(data["iterations"])),
+            "total_scenarios": len(dataset)
+        }
+
+    return summary, all_scenario_metrics
 
 
 def main():
     dataset = json.loads(DATASET_PATH.read_text(encoding="utf-8"))
     scenario = dataset[0]
     RESULTS.mkdir(exist_ok=True)
-    environment, objective, constraints, derivatives, feasibility, initial, results, solutions = run_pair(scenario, 5)
+
+    # Define a professional exponential penalty schedule: rho grows by 1% per iteration
+    exp_rho_schedule = lambda k, rho, v: rho * 1.01
+
+    # 1. Core Scenario 0 Analysis
+    environment, objective, constraints, derivatives, feasibility, initial, results, solutions = run_pair(scenario, 5, rho=100.0, rho_schedule=exp_rho_schedule)
     visualizer = Visualizer(environment)
     initial_z = initial_waypoints(environment, 5)
     visualizer.plot_trajectory(initial_z, "Initial Straight-Line Route", RESULTS / "trajectories" / "initial_path.png")
@@ -115,17 +178,26 @@ def main():
     }
     simple_scenario = dict(scenario)
     simple_scenario["obstacles"] = scenario["obstacles"][:1]
-    _, _, _, _, _, simple_initial, simple_results, _ = run_pair(simple_scenario, 5, max_iter=3000, rho=1000.0)
+    _, _, _, _, simple_initial, simple_results, _ , _ = run_pair(simple_scenario, 5, max_iter=3000, rho=1000.0)
     basic["simple_obstacle_case"] = {"initial": simple_initial, "methods": simple_results}
     basic["multiple_obstacle_case"] = results
     save_json(RESULTS / "metrics" / "scenario_0.json", basic)
 
+    # 2. Global Performance Study (All 50 Scenarios)
+    global_summary, all_metrics = run_full_dataset_study(dataset, waypoint_count=5, rho=100.0, rho_schedule=exp_rho_schedule)
+    save_json(RESULTS / "metrics" / "global_performance.json", global_summary)
+    save_json(RESULTS / "metrics" / "all_scenarios_comparison.json", all_metrics)
+    print("\n--- Global Performance Summary ---")
+    print(json.dumps(global_summary, indent=2))
+
+    # 3. Mode Comparison
     mode_comparison = {}
     for mode in DELIVERY_MODES:
-        _, _, _, _, _, _, mode_results, _ = run_pair(scenario, 5, max_iter=1000, mode=mode)
+        _, _, _, _, mode_initial, mode_results, _, _ = run_pair(scenario, 5, max_iter=1000, mode=mode)
         mode_comparison[mode] = mode_results
     save_json(RESULTS / "metrics" / "delivery_modes.json", mode_comparison)
 
+    # 4. Sensitivity Analysis
     experiment_rows = []
     for learning_rate in (0.005, 0.01, 0.02):
         for method in ("Gradient Descent", "Heavy-Ball"):
@@ -144,14 +216,21 @@ def main():
         for method, metrics in pair_results.items():
             waypoint_rows.append({"experiment": "waypoint_count", "waypoints": count, "method": method, **metrics})
     visualizer.plot_waypoint_study(waypoint_rows, RESULTS / "convergence" / "objective_vs_waypoints.png")
+
+    # 5. Initialization Sensitivity Study (The Non-Convexity Proof)
+    init_study_rows = []
     for mode in ("straight", "offset", "perturbed"):
-        env, obj, cons, deriv, feas, _, _, _ = run_pair(scenario, 5, z0=initial_waypoints(Environment2D(scenario), 5, mode), max_iter=500)
+        # We use a fixed scenario to show how initialization affects the result
+        env, obj, cons, deriv, feas, _ = build_problem(scenario, 5)
         z0 = initial_waypoints(env, 5, mode)
         for method in ("Gradient Descent", "Heavy-Ball"):
             solution, optimizer, metrics = run_method(env, obj, cons, deriv, feas, z0, method, max_iter=500)
-            experiment_rows.append({"experiment": "initialization", "value": mode, "method": method, **metrics})
+            init_study_rows.append({"experiment": "initialization", "value": mode, "method": method, **metrics})
 
+    experiment_rows.extend(init_study_rows)
     save_json(RESULTS / "metrics" / "experiment_study.json", {"sensitivity": experiment_rows, "waypoint_count": waypoint_rows})
+
+    print("\nDone. All professional metrics and studies saved to results/metrics/")
     print(json.dumps({"initial": initial, "methods": results}, indent=2))
     print("Full experiment study saved to results/metrics/experiment_study.json")
 

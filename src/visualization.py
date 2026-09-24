@@ -71,32 +71,64 @@ class Visualizer:
         else:
             plt.show()
 
-    def plot_diagnostics(self, gd, hb, output_dir):
+    def plot_diagnostics(self, gd, hb, output_dir, title_prefix=""):
         """Write the convergence, gradient, and constraint diagnostics required by the study."""
         output_dir = str(output_dir)
+        prefix = f"{title_prefix} " if title_prefix else ""
         self._plot_series(
             [gd.history], ["Gradient Descent"], "Iteration", "Penalized objective",
-            "Gradient Descent convergence", f"{output_dir}/gd_convergence.png", log_y=True,
+            f"{prefix}Gradient Descent convergence", f"{output_dir}/gd_convergence.png", log_y=True,
         )
         self._plot_series(
             [hb.history], ["Heavy-Ball"], "Iteration", "Penalized objective",
-            "Heavy-Ball convergence", f"{output_dir}/hb_convergence.png", log_y=True,
+            f"{prefix}Heavy-Ball convergence", f"{output_dir}/hb_convergence.png", log_y=True,
         )
         self._plot_series(
             [gd.history, hb.history], ["Gradient Descent", "Heavy-Ball"],
-            "Iteration", "Penalized objective", "Objective convergence",
+            "Iteration", "Penalized objective", f"{prefix}Objective convergence",
             f"{output_dir}/convergence.png", log_y=True,
         )
         self._plot_series(
             [gd.grad_norm_history, hb.grad_norm_history], ["Gradient Descent", "Heavy-Ball"],
-            "Iteration", "Gradient norm", "Gradient norm convergence",
+            "Iteration", "Penalized gradient norm", f"{prefix}Gradient norm convergence",
             f"{output_dir}/gradient_norm.png", log_y=True,
         )
         self._plot_series(
             [gd.constraint_violation_history, hb.constraint_violation_history],
-            ["Gradient Descent", "Heavy-Ball"], "Iteration", "Maximum violation",
-            "Constraint violation convergence", f"{output_dir}/constraint_violation.png", log_y=True,
+            ["Gradient Descent", "Heavy-Ball"], "Iteration", "Maximum sampled constraint violation",
+            f"{prefix}Constraint violation convergence", f"{output_dir}/constraint_violation.png", log_y=True,
         )
+
+    def plot_trajectory_comparison(self, initial, gd, hb, save_path):
+        """Plot initial, GD, and Heavy-Ball routes for one representative scenario."""
+        start = self.env.get_start()
+        goal = self.env.get_goal()
+        plt.figure(figsize=(8, 8))
+        plt.plot(start[0], start[1], "go", markersize=10, label="Start")
+        plt.plot(goal[0], goal[1], "ro", markersize=10, label="Goal")
+        for values, label, style in (
+            (initial, "Initial route", "k--"),
+            (gd, "Gradient Descent", "b-o"),
+            (hb, "Heavy-Ball", "m-o"),
+        ):
+            path = np.vstack([start, np.asarray(values).reshape(-1, 2), goal])
+            plt.plot(path[:, 0], path[:, 1], style, label=label)
+        for obstacle in self.env.get_obstacles():
+            center = obstacle["center"]
+            safe_radius = self.env.effective_obstacle_radius(obstacle)
+            plt.gca().add_patch(plt.Circle(center, obstacle["radius"], color="gray", alpha=0.5))
+            plt.gca().add_patch(plt.Circle(center, safe_radius, color="orange", fill=False, linestyle="--"))
+        plt.xlim(self.env.x_min, self.env.x_max)
+        plt.ylim(self.env.y_min, self.env.y_max)
+        plt.gca().set_aspect("equal")
+        plt.title("Representative Scenario 0 Trajectory Comparison")
+        plt.xlabel("x (m)")
+        plt.ylabel("y (m)")
+        plt.grid(True)
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(save_path)
+        plt.close()
 
     @staticmethod
     def _plot_series(series, labels, xlabel, ylabel, title, save_path, log_y=False):
