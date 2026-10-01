@@ -12,6 +12,7 @@ env/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.hypothesis/
 .coverage
 coverage.xml
 htmlcov/
@@ -25,10 +26,21 @@ dist/
 .env
 .env.*
 !.env.example
+.python_history
+
+# Logs and temporary runtime files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Python packaging and tooling files
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Jupyter Notebooks
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+.ipynb_checkpoints/
 
 # Project Outputs (Artifacts)
 results/
@@ -38,6 +50,9 @@ logs/
 *.jpeg
 *.pdf
 *.csv
+*.html
+*.pkl
+*.pickle
 
 # OS specific
 .DS_Store
