@@ -5,6 +5,8 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).parent))
+# Needed when this file is imported from scripts/: optimizer classes use src.*.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from analysis import hessian_analysis
 from constraints import Constraints
@@ -147,8 +149,9 @@ def main():
     scenario = dataset[0]
     RESULTS.mkdir(exist_ok=True)
 
-    # Define a professional exponential penalty schedule: rho grows by 1% per iteration
-    exp_rho_schedule = lambda k, rho, v: rho * 1.01
+    # Cap the penalty schedule; unrestricted exponential growth can overflow
+    # on difficult trajectories and makes runs unnecessarily unstable.
+    exp_rho_schedule = lambda k, rho, v: min(rho * 1.01, 10000.0)
 
     # 1. Core Scenario 0 Analysis
     environment, objective, constraints, derivatives, feasibility, initial, results, solutions = run_pair(scenario, 5, rho=100.0, rho_schedule=exp_rho_schedule)

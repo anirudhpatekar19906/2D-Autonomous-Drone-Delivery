@@ -44,6 +44,7 @@ pip-delete-this-directory.txt
 
 # Project Outputs (Artifacts)
 results/
+results_*/
 logs/
 *.png
 *.jpg

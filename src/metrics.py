@@ -53,7 +53,9 @@ def solution_metrics(environment, objective, constraints, feasibility, optimizer
         "minimum_buffered_clearance_m": float(feasibility.minimum_clearance(z)),
         "iterations": len(optimizer.history),
         "runtime_s": float(optimizer.runtime),
-        "final_gradient_norm": float(optimizer.grad_norm_history[-1]),
+        "final_gradient_norm": float(np.linalg.norm(optimizer.deriv.gradient(
+            z, optimizer.w_time, optimizer.w_energy, optimizer.rho, optimizer.w_smooth
+        ))),
         "condition_number": float(condition_number) if np.isfinite(condition_number) else None,
         "constraint_report": constraint_report(environment, objective, constraints, feasibility, z),
     }

@@ -26,3 +26,7 @@ class HeavyBallOptimizer(BaseOptimizer):
         self.z_prev = np.copy(z)
 
         return z_next
+
+    def _reset_state(self):
+        super()._reset_state()
+        self.z_prev = None

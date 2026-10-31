@@ -1,0 +1,5066 @@
+[
+    {
+        "id": 0,
+        "start": [
+            5.975711333063968,
+            5.875078194877304
+        ],
+        "goal": [
+            0.9682304259153385,
+            9.973984637951292
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.139714442864542,
+                    6.647692361677887
+                ],
+                "radius": 0.874965911329359
+            },
+            {
+                "center": [
+                    8.324219297608968,
+                    3.2683069651989953
+                ],
+                "radius": 0.6680065906843001
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 1,
+        "start": [
+            1.864058100099254,
+            4.8407810517025265
+        ],
+        "goal": [
+            7.794012902572587,
+            7.868995436893304
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.613638278912209,
+                    4.936189050863616
+                ],
+                "radius": 1.2740693395463145
+            },
+            {
+                "center": [
+                    3.360049679507169,
+                    2.4566790317883047
+                ],
+                "radius": 0.7856457771800095
+            },
+            {
+                "center": [
+                    2.3066706785006525,
+                    7.680786307393326
+                ],
+                "radius": 0.6871499357498142
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 2,
+        "start": [
+            1.106626662296426,
+            0.24685688688828256
+        ],
+        "goal": [
+            9.551638949246492,
+            4.831240070627615
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.544524785317328,
+                    1.6010400459424536
+                ],
+                "radius": 0.9961094014515837
+            },
+            {
+                "center": [
+                    2.633993302746658,
+                    8.057948050042757
+                ],
+                "radius": 1.2479012766231112
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 3,
+        "start": [
+            9.688793692134107,
+            2.883049732557504
+        ],
+        "goal": [
+            1.946672524657942,
+            6.87982161163145
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.556866787635055,
+                    5.785806774928116
+                ],
+                "radius": 1.4998821396191233
+            },
+            {
+                "center": [
+                    1.3507720260603593,
+                    3.6510933680481372
+                ],
+                "radius": 1.0251989391842748
+            },
+            {
+                "center": [
+                    4.294916140557033,
+                    4.68316722642377
+                ],
+                "radius": 1.2702551358280234
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 4,
+        "start": [
+            0.030435382411034828,
+            6.607618515583625
+        ],
+        "goal": [
+            7.003697023743235,
+            9.451076146553163
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.186960029663118,
+                    8.096245193733736
+                ],
+                "radius": 1.0490478750688872
+            },
+            {
+                "center": [
+                    1.4330458591082804,
+                    2.3604873846430072
+                ],
+                "radius": 0.9401197744204272
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 5,
+        "start": [
+            4.523007850591024,
+            0.16146136228394448
+        ],
+        "goal": [
+            4.0566046947622,
+            4.526065007502421
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.105913043039973,
+                    2.2024953619170873
+                ],
+                "radius": 1.0928752280785443
+            },
+            {
+                "center": [
+                    3.8247182961915778,
+                    8.144622316168352
+                ],
+                "radius": 1.3224684890795668
+            },
+            {
+                "center": [
+                    7.593050434519016,
+                    4.775187265705529
+                ],
+                "radius": 0.7452062376766129
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 6,
+        "start": [
+            5.039575083352364,
+            3.104090665311934
+        ],
+        "goal": [
+            8.990089495641989,
+            9.285029000281037
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    8.606849980596902,
+                    5.855162889807711
+                ],
+                "radius": 1.3519734858130947
+            },
+            {
+                "center": [
+                    2.7621019923784207,
+                    2.898320873970939
+                ],
+                "radius": 0.8268694149953384
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 7,
+        "start": [
+            8.195654512633299,
+            8.268352068691447
+        ],
+        "goal": [
+            6.062941752867279,
+            0.1404551768938478
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.388553202178353,
+                    5.74063987168919
+                ],
+                "radius": 1.222939194014458
+            },
+            {
+                "center": [
+                    1.3786125513639202,
+                    8.393347242493796
+                ],
+                "radius": 1.4731342125644744
+            },
+            {
+                "center": [
+                    1.586411096940819,
+                    3.0495569518981904
+                ],
+                "radius": 0.9045634141829709
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 8,
+        "start": [
+            8.103068343184178,
+            9.522177074860195
+        ],
+        "goal": [
+            1.006416572386346,
+            2.5717899363128085
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.1175762642783083,
+                    4.324000661160141
+                ],
+                "radius": 0.9982747867736277
+            },
+            {
+                "center": [
+                    4.8996157606910655,
+                    6.508221372852571
+                ],
+                "radius": 1.0350151492785098
+            },
+            {
+                "center": [
+                    6.481463277973543,
+                    2.8617924235382812
+                ],
+                "radius": 1.2658689553192832
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 9,
+        "start": [
+            5.321551869439952,
+            8.79989282234568
+        ],
+        "goal": [
+            9.150902413899361,
+            0.8590457203554935
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.682202316891941,
+                    4.642721435485088
+                ],
+                "radius": 1.364293110982128
+            },
+            {
+                "center": [
+                    7.094791801110126,
+                    8.622477987742373
+                ],
+                "radius": 0.851950056718194
+            },
+            {
+                "center": [
+                    4.238215318131477,
+                    6.799087900497072
+                ],
+                "radius": 0.850966382788396
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 10,
+        "start": [
+            4.134376212221424,
+            9.617415445176878
+        ],
+        "goal": [
+            0.7319309303568844,
+            3.9975139577075005
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.2797708002349877,
+                    7.098128734840582
+                ],
+                "radius": 1.2066155779128305
+            },
+            {
+                "center": [
+                    5.007213320882904,
+                    6.937057217208227
+                ],
+                "radius": 1.1181185387418575
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 11,
+        "start": [
+            5.222887379696597,
+            2.6492905423242394
+        ],
+        "goal": [
+            8.5045171165914,
+            6.089688634194821
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.548582133055669,
+                    4.631768553623643
+                ],
+                "radius": 0.992346732734443
+            },
+            {
+                "center": [
+                    4.001647000829965,
+                    8.045034869349195
+                ],
+                "radius": 0.8609430328221142
+            },
+            {
+                "center": [
+                    8.40315316983978,
+                    2.8875726413892613
+                ],
+                "radius": 0.5005766594430209
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 12,
+        "start": [
+            3.8339055156354265,
+            8.99530130585513
+        ],
+        "goal": [
+            8.863189479143008,
+            9.23439984158733
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.8003042514675505,
+                    8.006270215746929
+                ],
+                "radius": 1.4848185587094236
+            },
+            {
+                "center": [
+                    2.7060876664841196,
+                    6.676351663363224
+                ],
+                "radius": 0.656229283805528
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 13,
+        "start": [
+            1.9418488403226974,
+            9.605107424200783
+        ],
+        "goal": [
+            0.5670477549446795,
+            1.4698841368052962
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.021537781182846,
+                    2.4381041938830768
+                ],
+                "radius": 0.9838389235802483
+            },
+            {
+                "center": [
+                    2.0145086754201706,
+                    7.1900062477291335
+                ],
+                "radius": 0.5937001108366828
+            },
+            {
+                "center": [
+                    8.763897166110565,
+                    4.858554670634981
+                ],
+                "radius": 0.8708727946010292
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 14,
+        "start": [
+            4.374777299030387,
+            6.828087722393628
+        ],
+        "goal": [
+            2.9937970806934877,
+            3.1075658102182944
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.437884433343005,
+                    4.642623257659287
+                ],
+                "radius": 1.3551088613315156
+            },
+            {
+                "center": [
+                    2.9994624952944138,
+                    7.877904292691378
+                ],
+                "radius": 0.5561118809661967
+            },
+            {
+                "center": [
+                    8.520261262041021,
+                    6.573748966559689
+                ],
+                "radius": 1.1618178039533664
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 15,
+        "start": [
+            7.374382123176125,
+            0.764471088896691
+        ],
+        "goal": [
+            1.7130455201562855,
+            5.406398515526126
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.9392001065550595,
+                    3.844348604696405
+                ],
+                "radius": 1.421150454528318
+            },
+            {
+                "center": [
+                    8.80210917394969,
+                    8.135071359662803
+                ],
+                "radius": 0.9672694340449373
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 16,
+        "start": [
+            2.5640928148404427,
+            8.454042857605371
+        ],
+        "goal": [
+            8.204285611325307,
+            1.2641280386696618
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.492794627412206,
+                    6.904325677299274
+                ],
+                "radius": 1.3185476227368207
+            },
+            {
+                "center": [
+                    8.732826551473522,
+                    5.822867749392556
+                ],
+                "radius": 1.061480658403132
+            },
+            {
+                "center": [
+                    3.796674421583921,
+                    3.1286554355747036
+                ],
+                "radius": 0.5476664510782671
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 17,
+        "start": [
+            3.829627450229812,
+            9.534931376467528
+        ],
+        "goal": [
+            7.435844268028794,
+            6.884819936935522
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.308313958587263,
+                    8.759349545477997
+                ],
+                "radius": 1.1415258008392537
+            },
+            {
+                "center": [
+                    4.850047658588619,
+                    7.174899902630953
+                ],
+                "radius": 0.9461846592271893
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 18,
+        "start": [
+            6.352181731697195,
+            0.4382067356325048
+        ],
+        "goal": [
+            0.32472248589273667,
+            2.7758195549792575
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.54887179508729,
+                    2.4757890029650627
+                ],
+                "radius": 1.130753185185219
+            },
+            {
+                "center": [
+                    6.83798461548592,
+                    4.3063200075228005
+                ],
+                "radius": 0.6021290611504044
+            },
+            {
+                "center": [
+                    4.714768369426715,
+                    6.312498386185357
+                ],
+                "radius": 1.4721587716529942
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 19,
+        "start": [
+            9.368238818712864,
+            8.923483187446159
+        ],
+        "goal": [
+            0.2932967621561233,
+            5.6892585653575125
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.233594871690649,
+                    6.592442184528099
+                ],
+                "radius": 1.1397649578306872
+            },
+            {
+                "center": [
+                    6.729484352552101,
+                    1.4095276834387542
+                ],
+                "radius": 1.0033628217467485
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 20,
+        "start": [
+            1.6209251309903283,
+            4.923797511188482
+        ],
+        "goal": [
+            7.501573807295376,
+            4.385769823005385
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.253415774782992,
+                    5.856333217222983
+                ],
+                "radius": 1.0397239374429204
+            },
+            {
+                "center": [
+                    3.768912268318224,
+                    2.928293948628208
+                ],
+                "radius": 0.8251197762785646
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 21,
+        "start": [
+            0.5919658673149275,
+            0.6944255220911466
+        ],
+        "goal": [
+            7.565481885164599,
+            8.376044646715258
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.301294727247651,
+                    3.314597889869747
+                ],
+                "radius": 1.3081529719312197
+            },
+            {
+                "center": [
+                    6.762157464758045,
+                    1.1196745070274128
+                ],
+                "radius": 0.626858548469205
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 22,
+        "start": [
+            0.8063431673676702,
+            7.544616139298357
+        ],
+        "goal": [
+            9.178361323066506,
+            3.4747081360603724
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.6702557036800165,
+                    6.891711417427265
+                ],
+                "radius": 1.2745785714274813
+            },
+            {
+                "center": [
+                    5.6639751211370095,
+                    5.786844048910608
+                ],
+                "radius": 0.9669832887257588
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 23,
+        "start": [
+            0.5957132817648225,
+            5.87140640600616
+        ],
+        "goal": [
+            0.4471514843445812,
+            1.1053971780908312
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.8224614756977955,
+                    4.503943656862145
+                ],
+                "radius": 0.8347587482784755
+            },
+            {
+                "center": [
+                    5.393394117724141,
+                    4.542015847467687
+                ],
+                "radius": 1.2552217758628612
+            },
+            {
+                "center": [
+                    8.63377299829434,
+                    5.380278195740688
+                ],
+                "radius": 0.9913397161275477
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 24,
+        "start": [
+            1.8641308561610648,
+            9.109916134444454
+        ],
+        "goal": [
+            5.978205233877423,
+            3.1409332887994235
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.4545953409988845,
+                    7.756972787097174
+                ],
+                "radius": 0.967870006984572
+            },
+            {
+                "center": [
+                    2.9012467754371105,
+                    1.7543897116904468
+                ],
+                "radius": 1.1943788756387534
+            },
+            {
+                "center": [
+                    5.072129610464379,
+                    5.259456240046628
+                ],
+                "radius": 0.8754676095848772
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 25,
+        "start": [
+            8.730372889702124,
+            6.135276066457852
+        ],
+        "goal": [
+            3.573799958220454,
+            9.89443103232885
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.66251404479971,
+                    7.307025406386117
+                ],
+                "radius": 0.8200875578204468
+            },
+            {
+                "center": [
+                    6.578059964236247,
+                    1.6316356427554863
+                ],
+                "radius": 0.6806547774257562
+            },
+            {
+                "center": [
+                    2.8157081803829005,
+                    5.457832940753359
+                ],
+                "radius": 0.9427200314808789
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 26,
+        "start": [
+            0.36495805848956175,
+            0.7305132085805066
+        ],
+        "goal": [
+            7.794057335095693,
+            6.21873848463551
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.074685509007163,
+                    4.4546863833309835
+                ],
+                "radius": 1.4252629477331482
+            },
+            {
+                "center": [
+                    3.346977341112363,
+                    1.457482953423189
+                ],
+                "radius": 1.4052825604670098
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 27,
+        "start": [
+            8.93574144101428,
+            7.107512191376618
+        ],
+        "goal": [
+            5.478624679407681,
+            2.459901688239569
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.700334519501036,
+                    3.7021149011605328
+                ],
+                "radius": 0.873840127996502
+            },
+            {
+                "center": [
+                    2.3514988854803436,
+                    8.98892794568312
+                ],
+                "radius": 0.5217977943612276
+            },
+            {
+                "center": [
+                    1.30657470451162,
+                    5.966493534432107
+                ],
+                "radius": 1.310739362399818
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 28,
+        "start": [
+            9.77558616520673,
+            7.684360914067668
+        ],
+        "goal": [
+            4.044085937008428,
+            4.039200826577936
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.718761201408865,
+                    4.405811322365744
+                ],
+                "radius": 1.2414924498008864
+            },
+            {
+                "center": [
+                    3.7392383661113966,
+                    6.389054199865848
+                ],
+                "radius": 0.6092941334276666
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 29,
+        "start": [
+            2.642513009698484,
+            8.6776198820327
+        ],
+        "goal": [
+            1.036424798259148,
+            5.498227172361095
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.0154253759568697,
+                    6.533409318080798
+                ],
+                "radius": 1.1056079638459024
+            },
+            {
+                "center": [
+                    3.8502543127965767,
+                    1.929545578474377
+                ],
+                "radius": 1.2858117389344401
+            },
+            {
+                "center": [
+                    7.760458904284334,
+                    2.0517269571221846
+                ],
+                "radius": 0.7338194329675574
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 30,
+        "start": [
+            9.332611269773462,
+            0.42892929891655496
+        ],
+        "goal": [
+            5.460189663480659,
+            4.331825463852734
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    8.703988943892831,
+                    2.993078068250904
+                ],
+                "radius": 1.3874989197458127
+            },
+            {
+                "center": [
+                    8.288965999352312,
+                    6.611663124514901
+                ],
+                "radius": 1.4203185576568211
+            },
+            {
+                "center": [
+                    2.5445987215522505,
+                    1.288283725872355
+                ],
+                "radius": 0.9322580410333814
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 31,
+        "start": [
+            0.1476352552049287,
+            5.0073145625604045
+        ],
+        "goal": [
+            8.611361480813093,
+            2.2580431348103103
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.294427629533034,
+                    2.71619350450489
+                ],
+                "radius": 1.2029003103159444
+            },
+            {
+                "center": [
+                    6.985259342742352,
+                    5.296136097594879
+                ],
+                "radius": 0.6555591244420822
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 32,
+        "start": [
+            2.1840361061624805,
+            1.1754187470410382
+        ],
+        "goal": [
+            1.5758783680207533,
+            8.569318102164532
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.133008820554142,
+                    4.74307189530164
+                ],
+                "radius": 1.0333573975264256
+            },
+            {
+                "center": [
+                    7.039907398311864,
+                    1.0237113529812074
+                ],
+                "radius": 0.7986558172082038
+            },
+            {
+                "center": [
+                    8.096230551551631,
+                    8.395825817142558
+                ],
+                "radius": 0.6424706737503943
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 33,
+        "start": [
+            1.3100570078668028,
+            1.7598705418409288
+        ],
+        "goal": [
+            7.37722911964295,
+            1.2368743833677043
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.434070539561029,
+                    2.819072980617708
+                ],
+                "radius": 0.8735468029142401
+            },
+            {
+                "center": [
+                    7.549485631505223,
+                    3.6981051413158887
+                ],
+                "radius": 0.7451292874912393
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 34,
+        "start": [
+            9.857193739513875,
+            1.2975473196509646
+        ],
+        "goal": [
+            0.603908680714359,
+            6.586363734166978
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.6107662111893557,
+                    3.2215191149109845
+                ],
+                "radius": 1.3533127285003592
+            },
+            {
+                "center": [
+                    2.6598297065260645,
+                    8.845436507520311
+                ],
+                "radius": 0.9263596306948786
+            },
+            {
+                "center": [
+                    7.758530546276668,
+                    5.113471501330274
+                ],
+                "radius": 0.9152728761652612
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 35,
+        "start": [
+            0.6465681037254378,
+            8.609085394945147
+        ],
+        "goal": [
+            1.4599494812499825,
+            0.7721728465762268
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.1390828087112848,
+                    2.229587205314786
+                ],
+                "radius": 0.8718837371723605
+            },
+            {
+                "center": [
+                    5.055619131191742,
+                    3.833124339667898
+                ],
+                "radius": 1.202754008692585
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 36,
+        "start": [
+            4.068795349485052,
+            6.799294001937378
+        ],
+        "goal": [
+            6.62780203534658,
+            0.6462225790366272
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.4543272960352756,
+                    3.103512502448317
+                ],
+                "radius": 1.402207619034479
+            },
+            {
+                "center": [
+                    7.874305254797164,
+                    7.206014345474096
+                ],
+                "radius": 0.6052821379686127
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 37,
+        "start": [
+            2.7619096390142115,
+            7.31217294288018
+        ],
+        "goal": [
+            3.7132476247138424,
+            0.34277442634008004
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.998643987103131,
+                    3.352305818892458
+                ],
+                "radius": 1.0844509549614287
+            },
+            {
+                "center": [
+                    8.740558799067042,
+                    7.877472059986772
+                ],
+                "radius": 0.9021754582314887
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 38,
+        "start": [
+            1.5365514407269365,
+            2.9079272572405737
+        ],
+        "goal": [
+            9.139020299852582,
+            9.589381224034234
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.6205127819349148,
+                    2.7095791935989686
+                ],
+                "radius": 1.3879141951689207
+            },
+            {
+                "center": [
+                    8.929830337528012,
+                    3.714332519089117
+                ],
+                "radius": 1.1946914956641526
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 39,
+        "start": [
+            8.34697357052005,
+            0.21728927644261598
+        ],
+        "goal": [
+            4.484523466390372,
+            8.421613090965206
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.8289911094671165,
+                    3.317298931851373
+                ],
+                "radius": 1.2370530698485576
+            },
+            {
+                "center": [
+                    6.93182175965996,
+                    5.849087389426422
+                ],
+                "radius": 0.5099830862428874
+            },
+            {
+                "center": [
+                    1.0755785217887146,
+                    3.5510104712017787
+                ],
+                "radius": 1.2496586319661942
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 40,
+        "start": [
+            1.63698831597192,
+            0.6514050036975205
+        ],
+        "goal": [
+            0.19862960925331907,
+            5.375118711264567
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.3088067689004648,
+                    3.6367505109262526
+                ],
+                "radius": 1.2245881547673445
+            },
+            {
+                "center": [
+                    8.391573018448234,
+                    4.674775647423523
+                ],
+                "radius": 1.2649785949887598
+            },
+            {
+                "center": [
+                    3.0473048892916363,
+                    8.612803136114293
+                ],
+                "radius": 0.5860462534119814
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 41,
+        "start": [
+            0.088701264313501,
+            7.188287730352
+        ],
+        "goal": [
+            7.953935035005201,
+            8.142302565116516
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.8848219838198386,
+                    8.419943599217076
+                ],
+                "radius": 1.4335925089620138
+            },
+            {
+                "center": [
+                    4.754092738226898,
+                    4.862415771074711
+                ],
+                "radius": 0.7045631349305539
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 42,
+        "start": [
+            5.718025811851596,
+            6.921056587840875
+        ],
+        "goal": [
+            8.538985894942764,
+            0.1389107609675655
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    8.971054364450584,
+                    2.151167606101273
+                ],
+                "radius": 1.0238038979476214
+            },
+            {
+                "center": [
+                    3.2224182304603417,
+                    1.8483965420600539
+                ],
+                "radius": 0.9389461991202609
+            },
+            {
+                "center": [
+                    3.2965198441133623,
+                    4.143617298163601
+                ],
+                "radius": 0.7258758122795749
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 43,
+        "start": [
+            1.4527382669681754,
+            9.819021238869713
+        ],
+        "goal": [
+            5.240125681125091,
+            1.704665847287088
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.4296938087673086,
+                    4.073714051654778
+                ],
+                "radius": 0.9008123691338643
+            },
+            {
+                "center": [
+                    8.409114718849418,
+                    8.3312442797486
+                ],
+                "radius": 0.8390220636452614
+            },
+            {
+                "center": [
+                    8.910976375043985,
+                    5.3931999353736195
+                ],
+                "radius": 0.93157892634148
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 44,
+        "start": [
+            6.804171128180377,
+            1.7271182215223224
+        ],
+        "goal": [
+            0.14582550364271363,
+            9.748616298784166
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.180451326958125,
+                    5.1090791628969825
+                ],
+                "radius": 0.9930784872531533
+            },
+            {
+                "center": [
+                    7.876258642328249,
+                    6.966829027298191
+                ],
+                "radius": 1.217242692793667
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 45,
+        "start": [
+            0.6990746322320507,
+            3.7655765024973062
+        ],
+        "goal": [
+            7.872499722498513,
+            4.579214243490506
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.766133653247676,
+                    5.301061367068336
+                ],
+                "radius": 1.1202689327752766
+            },
+            {
+                "center": [
+                    1.668230761890995,
+                    2.0749840531373565
+                ],
+                "radius": 0.5790409111737292
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 46,
+        "start": [
+            8.930531710315332,
+            8.056884627981873
+        ],
+        "goal": [
+            0.7911866757397445,
+            7.015841916138109
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.7779210379105317,
+                    8.513917861171027
+                ],
+                "radius": 1.1223495800967471
+            },
+            {
+                "center": [
+                    5.402201066468337,
+                    3.056789394496671
+                ],
+                "radius": 1.22312102755377
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 47,
+        "start": [
+            6.549292818557077,
+            0.2641306235442842
+        ],
+        "goal": [
+            6.313145269461873,
+            8.834236490537753
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    8.17682684134496,
+                    7.372594444254809
+                ],
+                "radius": 1.392309700362508
+            },
+            {
+                "center": [
+                    7.066658630530922,
+                    4.915543669543055
+                ],
+                "radius": 0.5834937578384022
+            },
+            {
+                "center": [
+                    1.8179954034657468,
+                    6.8719844466025535
+                ],
+                "radius": 1.209455165098158
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 48,
+        "start": [
+            9.46292309309564,
+            6.638372125553217
+        ],
+        "goal": [
+            3.0239224931354625,
+            5.300076674611044
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.431117477824959,
+                    7.0154406891107906
+                ],
+                "radius": 0.9303409638946724
+            },
+            {
+                "center": [
+                    5.98506957200298,
+                    8.833300342554654
+                ],
+                "radius": 0.5236806682942805
+            },
+            {
+                "center": [
+                    1.253531890484691,
+                    2.808926084614593
+                ],
+                "radius": 1.3373796122393549
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 49,
+        "start": [
+            9.275315967214198,
+            2.807427791516539
+        ],
+        "goal": [
+            2.400597989937424,
+            8.25849730677289
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.518913967376462,
+                    5.95414488100179
+                ],
+                "radius": 1.430836351088054
+            },
+            {
+                "center": [
+                    3.1882120021087488,
+                    5.484263980298132
+                ],
+                "radius": 0.9328373170147541
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 50,
+        "start": [
+            9.585457249399989,
+            9.298447875049694
+        ],
+        "goal": [
+            0.6802666477578434,
+            1.4812301544930195
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.1653432287744776,
+                    4.4539703242699344
+                ],
+                "radius": 1.4693394757213034
+            },
+            {
+                "center": [
+                    5.977812954767637,
+                    1.252936813145098
+                ],
+                "radius": 0.7576911661568679
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 51,
+        "start": [
+            9.67901678476281,
+            0.7266257067485415
+        ],
+        "goal": [
+            0.8265031576646653,
+            0.8303185957691372
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.7653153861256037,
+                    1.654103948701894
+                ],
+                "radius": 1.0775675516881598
+            },
+            {
+                "center": [
+                    5.247818446316522,
+                    4.885184012209993
+                ],
+                "radius": 1.385328960557384
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 52,
+        "start": [
+            7.782113403790973,
+            0.3653875783281102
+        ],
+        "goal": [
+            7.880447385126211,
+            9.258933720222592
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.469513962329508,
+                    3.6879962311003887
+                ],
+                "radius": 1.2217109370574137
+            },
+            {
+                "center": [
+                    3.6295077007554886,
+                    5.432057850670043
+                ],
+                "radius": 1.38447541304338
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 53,
+        "start": [
+            2.1067103653783157,
+            0.5371470934435263
+        ],
+        "goal": [
+            9.137153058702175,
+            0.9098561738344113
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.731667671576662,
+                    2.5791926722145426
+                ],
+                "radius": 1.4291952771575627
+            },
+            {
+                "center": [
+                    3.869823789266155,
+                    7.9044009937739315
+                ],
+                "radius": 1.3920750624189344
+            },
+            {
+                "center": [
+                    7.682869925030889,
+                    8.264136377005908
+                ],
+                "radius": 1.3510862255213978
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 54,
+        "start": [
+            7.8050977014212695,
+            7.326145255683282
+        ],
+        "goal": [
+            5.040748677587088,
+            0.19663614981556776
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.496856383322734,
+                    5.090575439985747
+                ],
+                "radius": 1.2030488657220038
+            },
+            {
+                "center": [
+                    1.5772232063365905,
+                    1.1831534999618825
+                ],
+                "radius": 1.4651036444568843
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 55,
+        "start": [
+            6.585945956866218,
+            9.084128337515656
+        ],
+        "goal": [
+            4.6818948968543666,
+            5.184820878671593
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.00113413574677,
+                    7.0300017548474685
+                ],
+                "radius": 1.2438369222004164
+            },
+            {
+                "center": [
+                    4.239602510771522,
+                    3.027299593379351
+                ],
+                "radius": 0.8967034160020237
+            },
+            {
+                "center": [
+                    7.917585049455663,
+                    3.616066147214534
+                ],
+                "radius": 0.8841929968775465
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 56,
+        "start": [
+            1.5549194282074585,
+            4.496758299036603
+        ],
+        "goal": [
+            7.0896101235560085,
+            9.104490110370197
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.83401092624901,
+                    6.617578015609979
+                ],
+                "radius": 1.0353110399756704
+            },
+            {
+                "center": [
+                    7.661472982658806,
+                    7.3865053807697425
+                ],
+                "radius": 0.8243162518829129
+            },
+            {
+                "center": [
+                    7.955352858483916,
+                    4.936205152704545
+                ],
+                "radius": 0.7803305493267497
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 57,
+        "start": [
+            1.8663759845643657,
+            4.025711525168388
+        ],
+        "goal": [
+            6.155950008010923,
+            6.214417609045925
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.632730727432056,
+                    3.8453008185935253
+                ],
+                "radius": 1.3725359759783375
+            },
+            {
+                "center": [
+                    8.86235125283639,
+                    8.298505068496803
+                ],
+                "radius": 0.5845437765409707
+            },
+            {
+                "center": [
+                    3.219201879448554,
+                    1.7864912931781172
+                ],
+                "radius": 0.7074433361222771
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 58,
+        "start": [
+            0.5336559117659101,
+            1.6051559463557252
+        ],
+        "goal": [
+            5.559039894661977,
+            6.395603363956811
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.73254286324749,
+                    4.515994339092046
+                ],
+                "radius": 1.4335992037795529
+            },
+            {
+                "center": [
+                    1.9769239338193039,
+                    1.1735542265042866
+                ],
+                "radius": 0.8039793643832358
+            },
+            {
+                "center": [
+                    3.8662727879150234,
+                    5.899081746334203
+                ],
+                "radius": 0.6059248199914119
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 59,
+        "start": [
+            8.267459301712242,
+            8.312630862290176
+        ],
+        "goal": [
+            3.255685891875598,
+            7.650241661431557
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.465829849891741,
+                    8.14392023123596
+                ],
+                "radius": 1.4509569245315816
+            },
+            {
+                "center": [
+                    5.199794002772484,
+                    4.138140142295643
+                ],
+                "radius": 0.5221917663961684
+            },
+            {
+                "center": [
+                    4.0085023438093685,
+                    2.922822460635153
+                ],
+                "radius": 0.6535578942848072
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 60,
+        "start": [
+            2.721910288464043,
+            1.5172338883442082
+        ],
+        "goal": [
+            1.273172221431671,
+            7.276443133492809
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.172222163735123,
+                    5.3146213449446815
+                ],
+                "radius": 1.2202143752052175
+            },
+            {
+                "center": [
+                    6.929506168996303,
+                    6.344372560072041
+                ],
+                "radius": 1.3661054889248307
+            },
+            {
+                "center": [
+                    4.758145559992421,
+                    2.3418931522801625
+                ],
+                "radius": 1.1083335158244363
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 61,
+        "start": [
+            0.3778412720378621,
+            0.46992494475302515
+        ],
+        "goal": [
+            9.31172377633842,
+            3.6115392530078685
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.692583780863175,
+                    1.8005777694729383
+                ],
+                "radius": 1.1809315071486175
+            },
+            {
+                "center": [
+                    4.665258490939789,
+                    8.695301032858453
+                ],
+                "radius": 1.0267562078924535
+            },
+            {
+                "center": [
+                    4.196925399560364,
+                    4.496737277924212
+                ],
+                "radius": 1.0114572901866477
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 62,
+        "start": [
+            4.778057887085321,
+            2.0944170900807793
+        ],
+        "goal": [
+            3.5747760695920094,
+            6.666340940434444
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.6584885280552184,
+                    4.5033546315532025
+                ],
+                "radius": 1.364295128208047
+            },
+            {
+                "center": [
+                    7.211981679527311,
+                    2.072597263600339
+                ],
+                "radius": 1.3590426846667794
+            },
+            {
+                "center": [
+                    8.788561314909394,
+                    5.603661315131008
+                ],
+                "radius": 1.3041518850190075
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 63,
+        "start": [
+            9.993965555937246,
+            7.604169354590031
+        ],
+        "goal": [
+            4.604366416085984,
+            6.948315485608957
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.669233330936445,
+                    8.893877476140254
+                ],
+                "radius": 1.3947802384651444
+            },
+            {
+                "center": [
+                    8.791536002862536,
+                    2.01166095928101
+                ],
+                "radius": 0.9944224248617414
+            },
+            {
+                "center": [
+                    2.750856523738551,
+                    4.258080651148961
+                ],
+                "radius": 1.3731316954358608
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 64,
+        "start": [
+            8.029381143163498,
+            3.970644440194758
+        ],
+        "goal": [
+            1.76764683693179,
+            1.5255353943064198
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.716993994274753,
+                    2.3076010195831804
+                ],
+                "radius": 1.3310868986137208
+            },
+            {
+                "center": [
+                    6.3786160731304165,
+                    7.666888956331149
+                ],
+                "radius": 0.5013443770932842
+            },
+            {
+                "center": [
+                    1.2106598750394326,
+                    8.893618227775029
+                ],
+                "radius": 0.6454694026490587
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 65,
+        "start": [
+            1.1521441092784568,
+            8.344561502402954
+        ],
+        "goal": [
+            6.351671599025906,
+            1.8101928380439225
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.6360479135271637,
+                    4.402749045456784
+                ],
+                "radius": 1.1288885427036948
+            },
+            {
+                "center": [
+                    6.365700354410191,
+                    4.682528978930683
+                ],
+                "radius": 1.0335621925809308
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 66,
+        "start": [
+            6.456237332575478,
+            4.2676327926302084
+        ],
+        "goal": [
+            7.353444032221091,
+            9.594719288154018
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    8.274095248547427,
+                    7.526220397640015
+                ],
+                "radius": 1.0783535750402247
+            },
+            {
+                "center": [
+                    3.4691159712818083,
+                    5.103665685992494
+                ],
+                "radius": 1.4441588829371588
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 67,
+        "start": [
+            7.877013525880362,
+            0.5024476691098823
+        ],
+        "goal": [
+            9.742922759521143,
+            9.440606907169098
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.823020124634576,
+                    5.477903699834855
+                ],
+                "radius": 1.341396537252355
+            },
+            {
+                "center": [
+                    2.1380614619789897,
+                    4.188917584730123
+                ],
+                "radius": 1.4982443447436493
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 68,
+        "start": [
+            5.22750913439412,
+            1.1387644776410366
+        ],
+        "goal": [
+            7.097610585418085,
+            7.874264238680083
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.218864307153593,
+                    5.550289191455023
+                ],
+                "radius": 1.1152286142466512
+            },
+            {
+                "center": [
+                    1.7752033020476716,
+                    2.7111399059986514
+                ],
+                "radius": 0.8578210327133038
+            },
+            {
+                "center": [
+                    3.507758225254647,
+                    1.6300445637385446
+                ],
+                "radius": 0.5727503250198406
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 69,
+        "start": [
+            5.6900607592104615,
+            4.291328713254726
+        ],
+        "goal": [
+            4.4785869296048215,
+            8.839820791313965
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.491902265324109,
+                    6.436203616947777
+                ],
+                "radius": 0.8835641525284634
+            },
+            {
+                "center": [
+                    8.220275689568084,
+                    2.6387289345770375
+                ],
+                "radius": 1.1816312898002053
+            },
+            {
+                "center": [
+                    8.29298739568563,
+                    5.997727419205947
+                ],
+                "radius": 0.8350782495805632
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 70,
+        "start": [
+            3.2708648245180125,
+            4.900498257860525
+        ],
+        "goal": [
+            8.632110056550443,
+            3.0128534727073077
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.140955675148664,
+                    2.178608840511732
+                ],
+                "radius": 1.1239139134833176
+            },
+            {
+                "center": [
+                    5.684532201026559,
+                    4.868492890675991
+                ],
+                "radius": 0.6975902156914272
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 71,
+        "start": [
+            7.119726152285474,
+            1.1414603796670786
+        ],
+        "goal": [
+            0.8874788534205102,
+            1.3624057410850676
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.24661527024754,
+                    2.21932499416514
+                ],
+                "radius": 0.8998435557780051
+            },
+            {
+                "center": [
+                    8.884046242420908,
+                    4.622346871260576
+                ],
+                "radius": 0.9641884329362068
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 72,
+        "start": [
+            9.850413943227354,
+            5.097486895416806
+        ],
+        "goal": [
+            2.9343611379443213,
+            1.0725089682194688
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.21071919359221,
+                    4.4075203098247195
+                ],
+                "radius": 1.4016379317954235
+            },
+            {
+                "center": [
+                    2.1500419075924393,
+                    4.555406631003528
+                ],
+                "radius": 0.7011850460688392
+            },
+            {
+                "center": [
+                    3.4152148285294244,
+                    6.789196737156695
+                ],
+                "radius": 0.9961805004573114
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 73,
+        "start": [
+            7.160984862717058,
+            2.3350928604857457
+        ],
+        "goal": [
+            0.13315047400898727,
+            9.703061086579073
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.4919317232030753,
+                    8.285286517657394
+                ],
+                "radius": 0.9122888905929996
+            },
+            {
+                "center": [
+                    6.2526450587918365,
+                    7.7983158686175855
+                ],
+                "radius": 1.0016075572677563
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 74,
+        "start": [
+            0.3922763655413919,
+            5.09767441210821
+        ],
+        "goal": [
+            8.859898814764474,
+            3.2287452820638585
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.36365754743471,
+                    3.9650622683546715
+                ],
+                "radius": 1.2055676187790894
+            },
+            {
+                "center": [
+                    4.586167870500783,
+                    1.8497494089847075
+                ],
+                "radius": 0.6054973180234065
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 75,
+        "start": [
+            1.0178103548926698,
+            7.69164867190902
+        ],
+        "goal": [
+            1.864728697528688,
+            0.13156402534237333
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.5897744338846156,
+                    3.796018016322833
+                ],
+                "radius": 1.3719979771208886
+            },
+            {
+                "center": [
+                    3.0292330688366818,
+                    1.1942561934012348
+                ],
+                "radius": 0.5043855645726837
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 76,
+        "start": [
+            2.5632997100923416,
+            9.815458502789472
+        ],
+        "goal": [
+            9.375368993180453,
+            2.8295445451659864
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.858479742677507,
+                    4.741745840208207
+                ],
+                "radius": 0.9394436827338083
+            },
+            {
+                "center": [
+                    3.080843068077323,
+                    6.257110047849047
+                ],
+                "radius": 1.4764778405276533
+            },
+            {
+                "center": [
+                    7.736286373190541,
+                    8.17102585297035
+                ],
+                "radius": 0.8777913120800696
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 77,
+        "start": [
+            0.3337620886776649,
+            7.130172197780298
+        ],
+        "goal": [
+            5.087740312017885,
+            1.57073716740458
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.374604682328629,
+                    4.271781544410878
+                ],
+                "radius": 1.1031688371013229
+            },
+            {
+                "center": [
+                    7.610172975687704,
+                    6.870421117512816
+                ],
+                "radius": 1.0033061439457978
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 78,
+        "start": [
+            0.9448965221304895,
+            8.349384653351512
+        ],
+        "goal": [
+            6.017851466486249,
+            0.19304622788200332
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.332055752582196,
+                    7.3059317921849125
+                ],
+                "radius": 0.8135083216800656
+            },
+            {
+                "center": [
+                    8.394774809183659,
+                    8.773831361685776
+                ],
+                "radius": 1.365736695549369
+            },
+            {
+                "center": [
+                    2.4193355639337257,
+                    4.32634840758197
+                ],
+                "radius": 1.1049725600770146
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 79,
+        "start": [
+            3.6080340365359165,
+            7.622947420342933
+        ],
+        "goal": [
+            0.15624342737506902,
+            4.594643113344784
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.7727927415565352,
+                    6.316748004233132
+                ],
+                "radius": 1.2385508724239962
+            },
+            {
+                "center": [
+                    8.90142920089416,
+                    2.658807563168618
+                ],
+                "radius": 0.6635103108242075
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 80,
+        "start": [
+            9.626269579730183,
+            2.2888046627140755
+        ],
+        "goal": [
+            3.7191601247308648,
+            7.559178014424411
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.846513468186238,
+                    5.891696300617806
+                ],
+                "radius": 0.8214325475269766
+            },
+            {
+                "center": [
+                    2.5271165672425058,
+                    1.3557437100889045
+                ],
+                "radius": 1.3586906971405166
+            },
+            {
+                "center": [
+                    1.3618345891193462,
+                    4.302271440083479
+                ],
+                "radius": 0.7961190606045973
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 81,
+        "start": [
+            1.230223736677386,
+            9.047048013407284
+        ],
+        "goal": [
+            4.742615182974797,
+            1.4121970146112928
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    1.5599710155375055,
+                    5.072010822641274
+                ],
+                "radius": 0.9186420503481239
+            },
+            {
+                "center": [
+                    7.506639396808708,
+                    8.358159869584224
+                ],
+                "radius": 0.7367621519251398
+            },
+            {
+                "center": [
+                    2.908556638197169,
+                    1.2448723846856042
+                ],
+                "radius": 1.1321497018261275
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 82,
+        "start": [
+            8.995120001958586,
+            0.07831773201984804
+        ],
+        "goal": [
+            1.3643809044916,
+            6.074077258049756
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.5560631983309685,
+                    4.229572352326619
+                ],
+                "radius": 1.2438685785618748
+            },
+            {
+                "center": [
+                    8.69925768825818,
+                    5.731250392887425
+                ],
+                "radius": 1.2046216316623926
+            },
+            {
+                "center": [
+                    7.025632946378958,
+                    3.277236954165108
+                ],
+                "radius": 1.0662451677212448
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 83,
+        "start": [
+            9.297672392413302,
+            5.111460065504005
+        ],
+        "goal": [
+            1.5116727293287202,
+            9.244511580828684
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.375733248487198,
+                    6.849038513357357
+                ],
+                "radius": 1.4227920913122378
+            },
+            {
+                "center": [
+                    2.0669465927469455,
+                    3.3472074424551534
+                ],
+                "radius": 0.7241837084113234
+            },
+            {
+                "center": [
+                    2.957528244184095,
+                    8.44565601480911
+                ],
+                "radius": 0.5152595854765153
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 84,
+        "start": [
+            4.5282702268864226,
+            4.466336240833845
+        ],
+        "goal": [
+            8.040034284764172,
+            9.692530377136702
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.817656618034574,
+                    5.627230934764131
+                ],
+                "radius": 1.2854680625873942
+            },
+            {
+                "center": [
+                    2.9319487417040646,
+                    8.956687845214262
+                ],
+                "radius": 0.7887145650029611
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 85,
+        "start": [
+            0.15987480793414388,
+            8.842479802992663
+        ],
+        "goal": [
+            6.194325835201281,
+            1.0072813236936418
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.213186983829509,
+                    3.9716131694838728
+                ],
+                "radius": 1.4232147846838505
+            },
+            {
+                "center": [
+                    8.424664151075419,
+                    4.718734383766305
+                ],
+                "radius": 1.238087758992922
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 86,
+        "start": [
+            4.165453066601565,
+            3.3725518817208067
+        ],
+        "goal": [
+            8.660727116810245,
+            8.828875061125053
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.8528169955332,
+                    7.714029235881487
+                ],
+                "radius": 1.3090907295796486
+            },
+            {
+                "center": [
+                    7.464817020266016,
+                    3.0595155008191837
+                ],
+                "radius": 0.87482527643777
+            },
+            {
+                "center": [
+                    4.144187861174521,
+                    5.818011084896977
+                ],
+                "radius": 0.6569859614201113
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 87,
+        "start": [
+            8.139562994993781,
+            0.2780070138027446
+        ],
+        "goal": [
+            0.8130941629220512,
+            8.295703349335596
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.682301792132832,
+                    5.775661610358627
+                ],
+                "radius": 1.3758923904997757
+            },
+            {
+                "center": [
+                    8.426402063796427,
+                    4.892955050019037
+                ],
+                "radius": 0.689939599934947
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 88,
+        "start": [
+            5.307590009348172,
+            9.171421274993573
+        ],
+        "goal": [
+            8.922273802493997,
+            1.5651613117396512
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.489043700557156,
+                    6.111068494608126
+                ],
+                "radius": 1.404678141005224
+            },
+            {
+                "center": [
+                    2.382042577546887,
+                    5.791141451796532
+                ],
+                "radius": 0.6953734160950366
+            },
+            {
+                "center": [
+                    4.9600015757356575,
+                    1.7256875035628578
+                ],
+                "radius": 0.707198856326263
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 89,
+        "start": [
+            1.344639684248452,
+            4.6845337656984345
+        ],
+        "goal": [
+            8.881572890138946,
+            1.6022895889317512
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.71288489683414,
+                    2.93498744961844
+                ],
+                "radius": 1.4158797350352699
+            },
+            {
+                "center": [
+                    1.1140990225439973,
+                    8.59070754884952
+                ],
+                "radius": 0.5247797686570962
+            },
+            {
+                "center": [
+                    8.963015735812121,
+                    5.177642907566329
+                ],
+                "radius": 1.1810965504333044
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 90,
+        "start": [
+            3.8685775530426247,
+            3.5505237863968797
+        ],
+        "goal": [
+            9.028244407668215,
+            9.046658915668612
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    6.907842900770093,
+                    5.034529449955097
+                ],
+                "radius": 1.1348380951504657
+            },
+            {
+                "center": [
+                    1.7660912037325094,
+                    8.568199021822664
+                ],
+                "radius": 1.2807365308369123
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 91,
+        "start": [
+            3.372942186358089,
+            9.829081729290861
+        ],
+        "goal": [
+            9.876177323429948,
+            0.9178744928210503
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.988576742784417,
+                    8.033511634442435
+                ],
+                "radius": 1.348053490490483
+            },
+            {
+                "center": [
+                    7.695451631648777,
+                    7.449580290758512
+                ],
+                "radius": 0.8851623229227416
+            },
+            {
+                "center": [
+                    3.6206534844301084,
+                    2.1435954641692057
+                ],
+                "radius": 0.922991709060275
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 92,
+        "start": [
+            3.462671991656414,
+            0.890102304607373
+        ],
+        "goal": [
+            0.5751612326473299,
+            4.78076559653977
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    2.695443255696273,
+                    3.434194430833875
+                ],
+                "radius": 1.2713972816747412
+            },
+            {
+                "center": [
+                    4.648724298344903,
+                    8.473906859263922
+                ],
+                "radius": 1.1413774629263997
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 93,
+        "start": [
+            9.546863989113701,
+            0.7041591670611236
+        ],
+        "goal": [
+            4.245425881078476,
+            1.626901520865155
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    7.06553386987128,
+                    1.5727400277229124
+                ],
+                "radius": 1.1811126939151626
+            },
+            {
+                "center": [
+                    7.708043460851963,
+                    5.70262544728359
+                ],
+                "radius": 1.3130680525258565
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 94,
+        "start": [
+            8.485736462849465,
+            7.986309666371754
+        ],
+        "goal": [
+            0.7695459674575122,
+            1.6100206467492284
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.916456404994348,
+                    4.206424945137054
+                ],
+                "radius": 0.9105722701508494
+            },
+            {
+                "center": [
+                    3.342648905879276,
+                    7.0295914908978885
+                ],
+                "radius": 0.5111672746976084
+            },
+            {
+                "center": [
+                    8.501132738546154,
+                    5.608322009254531
+                ],
+                "radius": 1.1785713969044957
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 95,
+        "start": [
+            3.2587780593998117,
+            6.6916481217970745
+        ],
+        "goal": [
+            1.9125069733867117,
+            2.0076304594125416
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.74159617335515,
+                    4.244192324994674
+                ],
+                "radius": 1.1931720555362468
+            },
+            {
+                "center": [
+                    8.246700304897054,
+                    5.529782809817578
+                ],
+                "radius": 0.9206495999198562
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 96,
+        "start": [
+            0.41789425699507166,
+            9.87951976779968
+        ],
+        "goal": [
+            9.917799108100942,
+            5.399496747226763
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    4.146295644886823,
+                    7.604508267041264
+                ],
+                "radius": 1.3657782848180808
+            },
+            {
+                "center": [
+                    5.420202025615811,
+                    3.1239741810133737
+                ],
+                "radius": 0.5513691094816177
+            },
+            {
+                "center": [
+                    7.244091775365058,
+                    5.058587215980467
+                ],
+                "radius": 1.1268475695638995
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 97,
+        "start": [
+            6.577936186015677,
+            2.0913736267340246
+        ],
+        "goal": [
+            9.910487338924344,
+            8.054736770483796
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    8.386403871775961,
+                    4.390319016461493
+                ],
+                "radius": 1.20869411966755
+            },
+            {
+                "center": [
+                    6.337467452258336,
+                    7.6584408634690515
+                ],
+                "radius": 0.6162057410249479
+            },
+            {
+                "center": [
+                    1.628534593373013,
+                    1.8891800773338208
+                ],
+                "radius": 0.989178135343779
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 98,
+        "start": [
+            1.0595558565340057,
+            5.6952234186394
+        ],
+        "goal": [
+            7.817664227848819,
+            7.997937341967801
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    3.4012906670527103,
+                    7.641101649914065
+                ],
+                "radius": 1.0945812053730355
+            },
+            {
+                "center": [
+                    2.9059131644259724,
+                    2.2050204913326725
+                ],
+                "radius": 0.6315158852487383
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    },
+    {
+        "id": 99,
+        "start": [
+            6.238113827468713,
+            0.8449024496524615
+        ],
+        "goal": [
+            0.14408332131204515,
+            7.007330085175937
+        ],
+        "obstacles": [
+            {
+                "center": [
+                    5.022325043747037,
+                    2.2925959584301427
+                ],
+                "radius": 1.0569608668358987
+            },
+            {
+                "center": [
+                    5.395093141803921,
+                    5.0601112646109465
+                ],
+                "radius": 0.952141752331478
+            }
+        ],
+        "safety_parameters": {
+            "safety_margin": 0.5,
+            "extra_clearance": 0.2,
+            "total_extra_clearance": 0.7
+        },
+        "drone_params": {
+            "mass_kg": 1.5,
+            "weight_N": 14.7,
+            "max_speed_ms": 4.75,
+            "max_accel_ms2": 1.9,
+            "max_turn_rate_rad_s": 1.5,
+            "battery_capacity_Wh": 100.0,
+            "initial_soc": 0.9,
+            "reserve_soc": 0.2,
+            "power_model": {
+                "c0": 5.0,
+                "c1": 0.1,
+                "c2": 0.02
+            }
+        }
+    }
+]

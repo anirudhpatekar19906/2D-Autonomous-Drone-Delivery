@@ -1,4 +1,8 @@
-# 2D Autonomous Drone Delivery: Optimization Report
+# 2D Autonomous Drone Delivery: Original Optimization Report
+
+This report documents the original optimization-only foundation. The project
+has since added a separate tabular Q-learning proof of concept; see the root
+README and `results/rl/` for reproducible learning experiments.
 
 ## 1. Introduction
 

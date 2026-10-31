@@ -75,6 +75,9 @@ class BaseOptimizer(ABC):
 
     def _check_convergence(self, g_norm):
         """Checks if the stopping criteria are met."""
+        # A stationary but unsafe route is not a successful convergence.
+        if not self.feasibility_history[-1]:
+            return None
         if g_norm < self.tol:
             return "gradient_norm_tolerance"
 
@@ -93,6 +96,9 @@ class BaseOptimizer(ABC):
         """Main optimization loop shared by all descendants."""
         z = np.array(z0, dtype=float)
         self._reset_state()
+        self.w_time = float(w_time)
+        self.w_energy = float(w_energy)
+        self.w_smooth = float(w_smooth)
 
         start_time = time.time()
 

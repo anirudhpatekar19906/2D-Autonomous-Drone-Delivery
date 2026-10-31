@@ -69,12 +69,13 @@ class Objective:
         """
         Simplified energy cost: (Power at max speed) * (Time at max speed)
         Power P = c0 + c1*v + c2*v^2
-        Energy E = P * T = (c0 + c1*v_max + c2*v_max^2) * (dist / v_max)
+        Energy E = P * T / 3600 in watt-hours, because power is in watts
+        and T is measured in seconds.
         """
         dist = self.total_distance(z)
         time = dist / self.v_max
         power = self.c0 + self.c1 * self.v_max + self.c2 * (self.v_max**2)
-        return power * time
+        return power * time / 3600.0
 
     def combined_objective(self, z, w_time=1.0, w_energy=1.0, w_smooth=0.0):
         """

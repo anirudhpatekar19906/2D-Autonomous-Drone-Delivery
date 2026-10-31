@@ -199,6 +199,7 @@ def write_summary_csv(path, summary):
 def save_scenario_0(result):
     output_dir = RESULTS / "convergence"
     output_dir.mkdir(parents=True, exist_ok=True)
+    (RESULTS / "trajectories").mkdir(parents=True, exist_ok=True)
     visualizer = Visualizer(result["environment"])
     initial = np.asarray(result["shared_initial_waypoint_vector"])
     visualizer.plot_trajectory(initial, "Scenario 0 Initial Route", RESULTS / "trajectories" / "comparison_initial.png")
@@ -274,9 +275,16 @@ def representative_scenarios(rows):
 
 
 def main():
+    global DATASET_PATH, RESULTS, MAX_ITER
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--dataset", type=Path, default=DATASET_PATH)
+    parser.add_argument("--results-dir", type=Path, default=RESULTS)
+    parser.add_argument("--max-iter", type=int, default=MAX_ITER)
     args = parser.parse_args()
+    DATASET_PATH = args.dataset.resolve()
+    RESULTS = args.results_dir.resolve()
+    MAX_ITER = args.max_iter
     dataset = json.loads(DATASET_PATH.read_text(encoding="utf-8"))
     scenarios = dataset[:args.limit] if args.limit else dataset
 

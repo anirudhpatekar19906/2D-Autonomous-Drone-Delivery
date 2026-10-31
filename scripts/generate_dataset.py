@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import json
 import random
 import os
+import argparse
 from pathlib import Path
 
 
@@ -14,12 +15,13 @@ DRONE_PARAMS = {
 
     "mass_kg": 1.5,
     "weight_N": 14.7,
-    "max_speed_ms": np.random.uniform(4.5,5),
-    "max_accel_ms2": np.random.uniform(1.8,2),
-    "max_turn_rate_rad_s": np.random.uniform(1.4,1.6),
+    # Fixed vehicle configuration; scenarios vary in geometry, not vehicle.
+    "max_speed_ms": 4.75,
+    "max_accel_ms2": 1.9,
+    "max_turn_rate_rad_s": 1.5,
     "battery_capacity_Wh": 100.0,
-    "initial_soc": np.random.uniform(0.8,1.0),
-    "reserve_soc": np.random.uniform(0.15,0.25),
+    "initial_soc": 0.9,
+    "reserve_soc": 0.2,
     "power_model": {
         "c0": 5.0,
         "c1": 0.1,
@@ -409,7 +411,7 @@ def generate_single_scenario(scenario_id):
 # 5. DATASET GENERATION
 # ============================================================
 
-def generate_dataset(num_scenarios=50):
+def generate_dataset(num_scenarios=100, output_path=None):
 
     print(
         f"Generating {num_scenarios} scenarios..."
@@ -429,7 +431,10 @@ def generate_dataset(num_scenarios=50):
     # Save dataset
     # --------------------------------------------------------
 
-    filename = Path(__file__).parent.parent / "data" / "drone_optimization_dataset.json"
+    filename = Path(output_path) if output_path else (
+        Path(__file__).parent.parent / "data" / f"drone_optimization_dataset_{num_scenarios}.json"
+    )
+    filename.parent.mkdir(parents=True, exist_ok=True)
 
     with open(
         filename,
@@ -655,16 +660,21 @@ def visualize_samples(
 # 7. RUN DATASET GENERATION
 # ============================================================
 
-dataset = generate_dataset(
-    num_scenarios=50
-)
+def main():
+    parser = argparse.ArgumentParser(description="Generate reproducible drone environments")
+    parser.add_argument("--count", type=int, default=100)
+    parser.add_argument("--seed", type=int, default=2026)
+    parser.add_argument("--output", type=Path, default=None)
+    parser.add_argument("--plot", action="store_true", help="Display six sample maps")
+    args = parser.parse_args()
+    if args.count <= 0:
+        parser.error("--count must be positive")
+    np.random.seed(args.seed)
+    random.seed(args.seed)
+    dataset = generate_dataset(args.count, args.output)
+    if args.plot:
+        visualize_samples(dataset, num_samples=6)
 
 
-# ============================================================
-# 8. VISUALIZE 6 RANDOM SCENARIOS
-# ============================================================
-
-visualize_samples(
-    dataset,
-    num_samples=6
-)
+if __name__ == "__main__":
+    main()

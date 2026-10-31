@@ -21,7 +21,7 @@ class Derivatives:
         # Time and energy are normalized before applying delivery-mode weights.
         power = self.obj.c0 + self.obj.c1 * self.obj.v_max + self.obj.c2 * self.obj.v_max**2
         coeff = (w_time / self.obj.time_reference_s / self.obj.v_max) + (
-            w_energy / self.obj.energy_reference_Wh * power / self.obj.v_max
+            w_energy / self.obj.energy_reference_Wh * power / (3600.0 * self.obj.v_max)
         )
 
         # Distance Gradient
@@ -55,7 +55,7 @@ class Derivatives:
         # 2. Gradient of Penalty Terms: 2 * rho * max(0, g) * grad(g)
         # Battery constraint g_B = Energy - B_max
         # grad(g_B) = grad(Energy) = coeff_energy * grad(Distance)
-        energy_coeff = (self.obj.c0 + self.obj.c1*self.obj.v_max + self.obj.c2*self.obj.v_max**2) / self.obj.v_max
+        energy_coeff = (self.obj.c0 + self.obj.c1*self.obj.v_max + self.obj.c2*self.obj.v_max**2) / (3600.0 * self.obj.v_max)
         g_B = self.cons.battery_constraint(z, self.obj.energy_cost)
         if g_B > 0:
             grad += 2 * rho * g_B * (energy_coeff * dist_grad.flatten())
